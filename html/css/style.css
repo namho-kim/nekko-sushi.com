@@ -1,0 +1,179 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Noto Sans", sans-serif !important;
+}
+
+.myContainer {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#main {
+    background: url("images/o.jpg");
+    background-size: fill;
+    width: 100%;
+    height: 50vh;
+    position: relative;
+}
+
+#topNav {
+    display: absolute;
+    text-align: right;
+    background-color: #830b0b;
+}
+
+#topNav a {
+    margin: 0 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+}
+
+#topNav a:hover {
+    color: #e6cf0a;
+}
+
+@media screen and (min-width: 784px) {
+    #topNav a {
+        font-size: 16px;
+    }
+}
+
+#title {
+    text-align: center;
+    color: #fff;
+    background-color: rgba(24, 24, 24, 0.9);
+    font-family: "Expletus Sans", sans-serif;
+    position: absolute;
+    width: 100%;
+    top: 25%;
+}
+
+#title h1 {
+    display: inline-block;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #830b0b;
+}
+
+.myContainer h2 {
+    text-align: center;
+}
+
+#aboutUs {
+    margin-top: 50px;
+}
+
+#aboutUs .row {
+    margin-top: 20px;
+}
+
+#descript {
+    float: none;
+    margin: 0 auto;
+    margin-top: 45px;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.imgBox {
+    margin: 0 auto;
+    border: 1px solid blue;
+    width: 160px;
+    height: 90px;
+}
+
+@media screen and (min-width: 600px) {
+
+.imgBox {
+    height: 160px;
+    width: 280px;
+
+    }
+
+}
+
+#menu h3 {
+    text-align: center;
+}
+
+#location {
+    margin-top: 100px;
+}
+
+#location .row {
+    margin-top: 20px;
+}
+
+#google {
+    float: right;
+    margin-right: 7%;
+}
+
+@media screen and (max-width: 600px) {
+    iframe {
+        height: 280px;
+        width: 100%;
+        float: center;
+        margin-top: 10px;
+    }
+
+    #google {
+        margin: 0 auto;
+    }
+}
+
+#footer {
+    margin-top: 200px;
+    width: 100%;
+    text-align: center;
+    background-color: #f1f1f1;
+    padding-top: 6px;
+}
+
+#footer p {
+    font-size: 12px;
+}
+
+#address {
+    text-align: center;
+}
+
+#yelp {
+    color: #C70039;
+}
+
+#yelp:hover {
+    color: #FFC300;
+}
+
+@media screen and (min-width: 600px) {
+   
+    #location .row {
+        margin-top: 70px;
+    }
+
+    #menu .row {
+        margin-top: 70px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    #address {
+        margin-top: 60px;
+        margin-left: 15%;
+        text-align: left;
+    }
+}
+
+a {
+    text-decoration: none !important;
+}

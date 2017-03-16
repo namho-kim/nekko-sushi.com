@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Expletus+Sans|Noto+Sans" rel="stylesheet"> 
+        <title>Nekko Sushi</title>
+    </head>
+    <body>
+    <script src="https://use.fontawesome.com/a668149174.js"></script>
+        <div id="topNav">
+            <a href="https://www.yelp.com/biz/nekko-sushi-and-cuisine-lake-elsinore-2" target="_blank"><i class="fa fa-yelp"></i>&nbsp;Yelp</a>
+            <a href="#aboutUs">About Us</a>
+            <a href="./menu/">Menu</a>
+            <a href="#location">Location</a>
+        </div>
+        <div class="myContainer" id="main">
+            <div class="jumbotron" id="title">
+                <h1>NEKKO SUSHI</h1>
+                <h2>Sushi & Cuisine</h2>
+            </div>
+        </div>
+        <div class="myContainer" id="aboutUs">
+            <h2>ABOUT US</h2>
+            <hr style="border: 2px double #f1f1f1;"/>
+            <div class="row" id="menuNav">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                    <div class="imgBox"><img src="css/images/rolls.jpg"></div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                    <div class="imgBox"><img src="css/images/rolls.jpg"></div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                    <div class="imgBox"><img src="css/images/rolls.jpg"></div>
+                </div>
+            </div>
+            <div class="col-lg-8" id="descript">
+               <p>There is a lot we can say about Nekko Sushi. We can say that we have highly trained sushi chefs and courteous staff. We can tell you about our fresh ingredients and how great everything tastes. But, these are just words, and words don't mean much when it comes to food. If you like Japanese cuisine, and you really want to know about us, you have to come here and experience Nekko Sushi yourself.</p>
+               <br>
+               <p>Still on the fence? Have you visted and want to share your experience? Check us out on <a id="yelp" href="https://www.yelp.com/biz/nekko-sushi-and-cuisine-lake-elsinore-2" target="_blank"><i class="fa fa-yelp"></i>&nbsp;Yelp!</a>
+               <br>
+               <br>
+               <br>
+               <a href="./menu/"><button type="button" class="btn btn-primary">Explore Our Menu</button></a>
+            </div>
+        </div><!-- aboutUs !-->
+        <div class="myContainer" id="location">
+            <h2>LOCATION</h2>
+            <hr style="border: 2px double #f1f1f1;"/>            
+            <div class="row">
+                <div class="col-lg-4 col-xs-12" id="address">
+                    <h3 style="font-weight: bold">Nekko Sushi</h3>
+                    <p>32251 Mission Tri Suite G6<br>Lake Elsinore, CA 92530<br>(951) 674-5055</p>
+                    <p>We are located inside the Big Lots Mall</p>
+                </div>
+                <div class="col-lg-4 col-xs-12" id="google">
+                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3321.0768933186!2d-117.30004198445522!3d33.65516944599699!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc9bb95a739049%3A0xdcd651fa8a506b93!2sNekko!5e0!3m2!1sen!2sus!4v1489619522994" width="110%" height="360" frameborder="0" style="border: 1px solid grey" allowfullscreen></iframe>
+                   <script type="text/javascript">
+                        var center;
+                        function calculateCenter() {
+                          center = map.getCenter();
+                        }
+                        google.maps.event.addDomListener(map, 'idle', function() {
+                          calculateCenter();
+                        });
+                        google.maps.event.addDomListener(window, 'resize', function() {
+                          map.setCenter(center);
+                        });
+                    </script>
+                </div>
+            </div>
+        </div><!-- location !-->
+        <div class="container" id="footer">
+            <p>Copyright <i class="fa fa-copyright"></i>&nbsp;Nekko Sushi 2017<br>Website by <a href="https://namho.kim" target="_blank">Namho Kim</a></p>
+        </div>
+    </body>

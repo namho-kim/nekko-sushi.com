@@ -1,0 +1,58 @@
+a {
+    color: #fff !important;
+    text-decoration: none !important;
+    margin: 15px;
+}
+
+#myContainer {
+    width: 100vw;
+    height: 100vh;
+}
+
+#menuBar {
+    background-color: #181818;
+    color: #fff;
+    text-align: center;
+    margin-top: -20px;
+    padding-top: 10px;
+}
+
+#menuBar h2 {
+    border-bottom: 2px solid #830b0b;
+}
+
+#navItems {
+    margin: 0 auto;
+}
+
+#navItems button {
+    font-size: 16px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+#theMenus {
+    height: 100vh;
+    text-align: center;
+}
+
+#imageBox {
+    display: inline-block;
+    margin-top: 25px;
+}
+
+@media screen and (min-width: 900px) {
+    #menuBar {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+    }
+
+    #menuBar h2 {
+        margin-top: 250px;
+    }
+
+    #navItems button {
+        display: block;
+    }
+}
