@@ -87,6 +87,7 @@ img {
     border: 1px solid blue;
     width: 160px;
     height: 90px;
+    margin-top: 10px;
 }
 
 @media screen and (min-width: 600px) {
@@ -94,7 +95,6 @@ img {
 .imgBox {
     height: 160px;
     width: 280px;
-
     }
 
 }
