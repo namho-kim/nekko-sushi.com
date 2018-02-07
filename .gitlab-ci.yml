@@ -1,6 +1,6 @@
 pages:
   script:
-  - my_commands
+  - ls
   artifacts:
     paths:
     - html
