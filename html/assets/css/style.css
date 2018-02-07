@@ -1,0 +1,37 @@
+body{height: 100%;}
+p{font-size: 16px;}
+a:hover{text-decoration: none;}
+#nav{background: #830B0B; color: #fff;}
+#navBar{float: right; font-weight: bold; font-size: 16px; height: 16px;}
+#navBar a{color: #fff;}
+.navItem{display: inline; margin-right: 20px;}
+.navItem:hover{cursor: pointer;}
+#jumboBox{background: #151515;}
+#cover{text-align: center; background: #151515; color: #fff;}
+#onlyImg{max-width: 500px;}
+#locationHeader{text-align: right;}
+
+
+@media screen and (max-width: 980px){
+    .row{text-align: center;}
+    #locationHeader{text-align: center;}
+    #onlyImg{margin-bottom: 20px;}
+}
+
+@media screen and (max-width: 600px){
+    #onlyImg{max-width: 250px;}
+    p{font-size: 14px;}
+}
+
+/*Menu*/
+#menuTop{text-align: center; background: #151515; color: #fff;}
+#menuNav{margin-top: -15px; padding-bottom: 10px;}
+.menuCategories{display: inline; margin: 20px; margin-top: -40px; text-decoration: none; color: white; cursor: pointer;}
+.menuCategories:hover{color: white; text-decoration: none;}
+.menuImages{max-width: 100%;}
+#line{border: 1px solid #830B0B; margin-top: -8px; width: 50%;}
+
+@media screen and (max-width: 600px){
+.menuCategories{display:block; margin: 5px auto}
+#line{border: 1px solid #830B0B; margin-top: -8px; width: 90%;}
+}

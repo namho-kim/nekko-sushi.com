@@ -1,29 +1,33 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="css/main.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <title>Nekko Sushi Menu</title>
-    </head>
-    <body>
-        <script type="text/javascript" src="javascript.js"></script>
-        <div class="myContainer">
-            <div class="col-lg-2 col-md-2" id="menuBar">
-                <a href="../"><h2>NEKKO SUSHI</h2></a>
-                <div id="navItems">
-                    <button class="btn btn-link" onclick="lunch()" class="item">Lunch</button>
-                    <button class="btn btn-link" onclick="apps()" class="item">Appetizers/Salads</button>
-                    <button class="btn btn-link" onclick="dinner()" class="item">Dinner Entrees</button>
-                    <button class="btn btn-link" onclick="rolls()" class="item">Rolls</button>
-                    <button class="btn btn-link" onclick="beverage()" class="item">Beverages</button>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <title>Nekko Sushi Menu</title>
+</head>
+<body>
+    <div class="container-fluid" id="allMenu">
+        <div class="row" style="background: black;">
+            <div class="col-lg-12" id="menuTop">
+                <a href="../" style="color: #fff;"><h2>Nekko Sushi &nbsp; <i class="fa fa-home"></i></h2></a>
+                <hr id="line" "border: 1px solid #830B0B; margin-top: -8px; width: 50%;">
+                <div id="menuNav">
+                    <a class="menuCategories" id="lunch">Lunch</a>
+                    <a class="menuCategories" id="apps">Appetizers/Salads</a>
+                    <a class="menuCategories" id="dinner">Dinner Entrees</a>
+                    <a class="menuCategories" id="rolls">Rolls</a>
+                    <a class="menuCategories" id="bevs">Beverages</a>
                 </div>
             </div>
-            <div class="col-lg-10" id="theMenus">
-                <div id="imageBox">
-                    <img class="images" src="css/images/cover.jpg">
-                </div>  
+        </div>
+        <div class="row">
+            <div class="col-lg-12" id="theMenus" style="text-align: center">
+                <img class="menuImages" src="../assets/images/cover.jpg">
             </div>
         </div>
-    </body>
+<script src="https://use.fontawesome.com/a668149174.js"></script>
+<script src="../assets/js/menu.js"></script>
+</body>
