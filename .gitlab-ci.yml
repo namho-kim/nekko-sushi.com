@@ -3,4 +3,4 @@ pages:
   - my_commands
   artifacts:
     paths:
-    - public
+    - html
