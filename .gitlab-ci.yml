@@ -1,7 +1,6 @@
 pages:
   script:
-  - mkdir public
-  - mv html/* public/
+  - ls 
   artifacts:
     paths:
     - public
